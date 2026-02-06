@@ -1,0 +1,322 @@
+.section{
+  background-color: var(--bg-color);
+}
+
+
+.section .container {
+  background-color: var(--whites);
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 50px;
+  max-width: 1180px;
+  width: 100%;
+  height: 400px;
+  padding: 25px 15px;
+}
+
+
+.container .sidebar {
+  background-color: white;
+  flex: 1 1 280px;
+  max-width: 250px;
+  height: 100%;
+}
+
+
+.container .sidebar ul {
+  max-height: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.container .sidebar ul li {
+  padding: 4px;
+  border-radius: 4px;
+  text-align: start;
+  color: var(--color-side);
+  transition: 0.4s;
+}
+
+
+.container .sidebar ul li:hover,
+.active {
+  background-color: var(--active-side);
+  color: var(--dark);
+
+}
+
+
+.container .hero-banner {
+  position: relative;
+  background-color: white;
+  max-width: 665px;
+  width: 100%;
+  max-height: 360px;
+  background-image: url("D:\work\learn\ecommersprand\src\assets\Mask group.png");
+   background-size: cover;      
+  background-position: center;  
+  background-repeat: no-repeat; 
+}
+
+
+.container .hero-banner .text {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+
+.container .hero-banner .text h6 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+
+.container .hero-banner .text h2 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 5%;
+}
+
+
+
+
+
+/* Right side cards */
+
+.container .rightcards {
+  max-width: 200px;
+  width: 100%;
+  max-height: 360px;
+  height: auto;
+}
+
+
+.container .rightcards .card1 {
+  background-color: var(--lg-color);
+  max-width: 200px;
+  max-height: 170px;
+  height: 100%;
+  margin-bottom: 12px;
+}
+
+
+.container .rightcards .card1 .user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  max-height: 150px;
+}
+
+
+.container .rightcards .card1 .user h2 {
+  background-color: var(--user);
+  color: var(--white);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 40px;
+}
+
+
+.container .rightcards .card1 .user p {
+  color: var(--dark);
+}
+
+
+.container .rightcards .card1 .btn {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+
+.container .rightcards .card1 .btn .join {
+  padding: 2px;
+  background-color: var(--sky-blue);
+  color: var(--white);
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+
+.container .rightcards .card1 .btn .login {
+  padding: 2px;
+  background-color: var(--white);
+  color: var(--sky-blue);
+  border-radius: 4px;
+  font-size: 15px;
+
+}
+
+
+.container .rightcards .card2 {
+  background-color: var(--bg-color-card2);
+  margin-bottom: 12px;
+}
+
+
+.container .rightcards .card2 h6 {
+  font-weight: 400;
+  color: var(--white);
+  padding: 5px 10px;
+  width: 70%;
+  text-align: start;
+}
+
+
+.container .rightcards .card3 {
+  background-color: var(--bg-color-card3);
+}
+
+
+.container .rightcards .card3 h6 {
+  font-weight: 400;
+  color: var(--white);
+  width: 80%;
+  padding: 5px 10px;
+
+}
+
+
+    /* media */
+
+
+
+@media (max-width: 1150px) {
+  .container .sidebar {
+    max-width: 200px;
+  }
+  
+.container .hero-banner {
+  max-width: 565px;
+  width: 100%;
+  max-height: 360px;
+}
+
+.container .rightcards .card1 .user {
+  padding: 0;
+}
+.container .rightcards .card1 .user h2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+}
+
+
+
+@media (max-width: 992px) {
+  .rightcards {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .container .hero-banner {
+    max-width: 100%;
+    width: 100%;
+    max-height: 360px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+@media (max-width: 600px) {
+   .container .hero-banner {
+    max-height: 260px;
+  }
+  
+.section .container {
+  max-height: 250px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.container-fluid{
+  padding: 0 100px;
+}
+
+.hero-banner {
+  background-image: url("D:\work\learn\ecommersprand\src\assets\Mask group.png"); 
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  min-height: 280px;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.hero-banner .text {
+  max-width: 300px;
+}
+
+.category-list{
+  height: 360px;
+}
+
+.category-list .list-group-item {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.category-list .list-group-item.active{
+  background-color: var(--white-by) !important; 
+  color: var(--dark) !important;  
+}
+ */

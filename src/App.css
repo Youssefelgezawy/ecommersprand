@@ -1,0 +1,53 @@
+:root {
+    --white: #fff;
+    --light-white: #505050;
+    --white-gray: #bdc4cd;
+    --sky-blue: #0c76ff;
+    --light-blue: #8CB7F5;
+    --light-gray: #8B96A5;
+    --dark: #1c1c1c;
+    --white-by: #e5f1ff;
+    --whites: #ffffff;
+    --Light-red: #ffe3e3;
+    --red: red;
+    --white-border: #e0e0e0;
+    --light-dark: #606060;
+    --bg-color: #f7fafc;
+    --lg-color: #e3f0ff;
+    --color-side: #505050;
+    --active-side: #e5f1ff;
+    --bg-color-card2: #f38332;
+    --bg-color-card3: #55bdc3;
+    --user: #c7e1ff;
+    --bg-icons: #d1e6ff;
+
+}
+
+
+body{
+        background-color: var(--bg-color);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+input {
+    outline: none;
+}

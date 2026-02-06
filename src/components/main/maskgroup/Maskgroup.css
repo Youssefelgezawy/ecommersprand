@@ -1,0 +1,155 @@
+.Maskgroup {
+    height: 60vh;
+    max-height: 420px;
+    min-height: 200px;
+}
+
+.Maskgroup .container {
+    position: relative;
+    background: linear-gradient(to right, rgba(36, 106, 210, 0.947)10%, rgba(0, 208, 255, 0.429)), url("../../../assets/image\ 102.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+.Maskgroup .container .text {
+    position: absolute;
+    width: 28%;
+    top: 7%;
+    left: 2%;
+    height: 40%;
+}
+
+
+.Maskgroup .container .text h2 {
+    text-align: start;
+    font-size: 25px;
+    color: var(--white);
+}
+
+
+.Maskgroup .container .text p {
+    text-align: start;
+    color: var(--white);
+}
+
+
+.Maskgroup .container .text .btn {
+    background-color: var(--sky-blue);
+    color: var(--white);
+    margin-top: 20px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.Maskgroup .container .card {
+    position: absolute;
+    width: 35%;
+    top: 5%;
+    right: 2%;
+    height: 85%;
+}
+
+
+.Maskgroup .container .card .form h4 {
+    padding: 15px;
+    color: var(--dark);
+}
+
+
+.Maskgroup .container .card .question {
+    padding: 5px 15px;
+    margin: 10px 25px;
+    border-radius: 5px;
+    color: var(--dark);
+    border: 2px solid var(--white-border);
+    width: 88%;
+}
+
+
+.Maskgroup .container .card .type-more-details {
+    outline: none;
+    margin: 10px 25px;
+    border-radius: 5px;
+    color: var(--dark);
+    border: 2px solid var(--white-border);
+    width: 88%;
+    height: 45%;
+    padding: 5px 15px;
+}
+
+
+.Maskgroup .container .card .message {
+    display: flex;
+    gap: 10px;
+    padding: 0px 25px;
+}
+
+
+.Maskgroup .container .card .message .quantity {
+    border: 2px solid var(--white-border);
+    padding: 2px;
+}
+
+
+.Maskgroup .container .card .message .message {
+    border: 2px solid var(--white-border);
+    padding: 2px;
+    width: 20%;
+}
+
+
+.Maskgroup .container .card .btn {
+    background-color: var(--sky-blue);
+    color: var(--white);
+    margin: 10px 0 0 25px;
+}
+
+
+
+@media (max-width:992px) {
+    .card {
+        display: none;
+    }
+
+    .Maskgroup .container .text p {
+        display: none;
+    }
+
+    .Maskgroup .container .text {
+        width: 50%;
+    }
+
+    .Maskgroup .container {
+        width: 100%;
+    }
+
+    .Maskgroup .container .text .btn {
+        display: block;
+    }
+}
+
+
+@media (max-width:768px) {
+    .Maskgroup {
+        height: 35vh;
+    }
+
+    .Maskgroup .container .text {
+        width: 70%;
+    }
+}

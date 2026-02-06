@@ -1,0 +1,48 @@
+.communication .container {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+
+.communication .container .text h2 {
+    margin-bottom: -10px;
+    color: var(--dark);
+
+}
+
+
+.communication .container .text p {
+    margin-top: 0;
+    color: var(--light-dark);
+}
+
+
+.communication .container .conect input {
+    width: 274px;
+    padding: 6px;
+    border: 1px solid #dee2e7;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+
+
+.communication .container .conect button {
+    padding: 6px;
+    border-radius: 4px;
+    background-color: var(--sky-blue);
+    color: var(--white);
+    font-size: 18px;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .communication {
+        display: none;
+    }
+}

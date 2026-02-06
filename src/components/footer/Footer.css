@@ -1,0 +1,97 @@
+.footer{
+    background-color: var(--whites);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.container .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    gap: 10px;
+}
+
+.container .logo h6{
+    font-size: 18px;
+    color: var(--light-blue);
+    font-weight: 700;
+}
+
+.container p{
+    padding-top: 15px;
+    color: var(--light-white);
+}
+
+
+.social-media ul{
+    width: 200px;
+    height: 32px;
+    display: flex;
+    gap: 8px;
+    padding: 0;
+}
+
+.social-media img{
+    width: 28px;   
+    height: 24px;  
+    padding: 4px;
+    border-radius: 50%;
+    background-color: var(--white-gray);
+    color: var(--white);
+}
+
+.container h2{
+    color: var(--dark);
+    font-size: 20px;
+   text-align: center;
+}
+
+.container ul{
+    padding: 0;
+    text-align: center;
+}
+
+.container ul li a{
+    color: var(--light-gray);
+    display: inline-block;
+    padding: 2px;
+}
+
+
+.container .imgs{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;             
+    padding: 5px;
+    align-items: center;    
+}
+
+.container .imgs .app{
+    background-color: var(--dark);
+    width: 150px;
+    height: 45px;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+
+.container .imgs .google{
+    background-color: var(--dark);
+    width: 150px;
+    height: 45px;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+
+
+@media (max-width:576px) {
+    .footer {
+       display: none;
+    }
+}

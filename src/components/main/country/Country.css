@@ -1,0 +1,63 @@
+.country{
+    background-color: var(--bg-color);
+    margin-left: 140px;
+}
+
+
+.country .container {
+    display: block;
+}
+
+
+.country .container .title h2 {
+    text-align: start;
+    margin-bottom: 20px;
+
+}
+
+
+.country .container .group {
+    display: inline-flex;
+    margin: 10px;
+    width: 221px;
+    height: 36px;
+    position: relative;
+}
+
+
+.country .container .group .imge {
+    position: absolute;
+
+}
+
+
+.country .container .group .text {
+    position: absolute;
+    top: 0;
+    left: 18%;
+}
+
+
+.country .container .group .text h2 {
+    font-size: 12px;
+}
+
+
+
+.country .container .group .des {
+    position: absolute;
+    top: 0;
+    left: 18%;
+}
+
+
+.country .container .group .des p {
+    font-size: 10px;
+}
+
+
+@media(max-width:992px){
+    .country{
+        display: none;
+    }
+}
