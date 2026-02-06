@@ -3,7 +3,7 @@ import Footer from './components/footer/Footer'
 import Item from './components/main/blookitemgroup/Item'
 import Header from './components/main/header/Header'
 import Section from './components/main/section-main/Section'
-import Sale from './components/main/section-sale/sale'
+import Sale from './components/main/section-sale/Sale'
 import image98 from "./assets/image98.png"
 import image92 from "./assets/image92.png"
 import Maskgroup from './components/main/maskgroup/Maskgroup'
