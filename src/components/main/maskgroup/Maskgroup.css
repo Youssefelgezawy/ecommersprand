@@ -6,7 +6,7 @@
 
 .Maskgroup .container {
     position: relative;
-    background: linear-gradient(to right, rgba(36, 106, 210, 0.947)10%, rgba(0, 208, 255, 0.429)), url("../../../assets/image\ 102.png");
+    background: linear-gradient(to right, rgba(36, 106, 210, 0.947) 10%, rgba(0, 208, 255, 0.429)), url("../../../assets/image102.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
