@@ -10,7 +10,7 @@ import Maskgroup from './components/main/maskgroup/Maskgroup'
 import Recommend from './components/main/recommend/Recommend'
 import Services from './components/main/service/Services'
 import Country from './components/main/country/Country'
-import Communication from './components/main/Communication/Communication'
+import Communication from './components/main/communication/Communication'
 
 
 function App() {
