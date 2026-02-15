@@ -4,7 +4,7 @@ import Botomheader from './components/header/botomheader/Botomheader'
 import Footer from './components/footer/Footer'
 import { Route, Routes } from 'react-router-dom'
 import Home from "./components/pages/home/Home.jsx";
-import Category from "./components/pages/Category/Category.jsx";
+import Category from "./components/pages/category/Category.jsx";
 import Productdetels from './components/pages/Productdetels/Productdetels.jsx'
 import Cart from './components/pages/cart/Cart.jsx'
 
