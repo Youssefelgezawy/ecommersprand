@@ -1,13 +1,13 @@
 import "./Country.css"
-import AE1 from "../../../assets/AE1.png";
-import AU2 from "../../../assets/AU2.png";
-import US3 from "../../../assets/US3.png";
-import RU4 from "../../../assets/RU4.png";
-import IT5 from "../../../assets/IT5.png";
-import DK6 from "../../../assets/DK6.png";
-import FR7 from "../../../assets/FR7.png";
-import CN9 from "../../../assets/CN9.png";
-import GB10 from "../../../assets/GB10.png";
+import AE1 from "../../../../assets/AE1.png";
+import AU2 from "../../../../assets/AU2.png";
+import US3 from "../../../../assets/US3.png";
+import RU4 from "../../../../assets/RU4.png";
+import IT5 from "../../../../assets/IT5.png";
+import DK6 from "../../../../assets/DK6.png";
+import FR7 from "../../../../assets/FR7.png";
+import CN9 from "../../../../assets/CN9.png";
+import GB10 from "../../../../assets/GB10.png";
 
 
 const countries = [

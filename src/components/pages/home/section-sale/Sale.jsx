@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -61,13 +62,14 @@ function Sale() {
                                 }}
                             >
                                 {products.map((item, i) => (
-                                    <SwiperSlide key={i}>
-                                        <div className="products">
+                                    <SwiperSlide key={item.id}>
+                                        <Link to={`/products/${item.id}`} className="products">
                                             <img src={item.thumbnail} alt={item.title} />
                                             <h4>{item.title}</h4>
                                             <p>-{item.discountPercentage}%</p>
-                                        </div>
+                                        </Link>
                                     </SwiperSlide>
+
                                 ))}
                             </Swiper>
                         </div>

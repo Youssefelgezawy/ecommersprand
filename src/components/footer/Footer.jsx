@@ -46,9 +46,8 @@ function Footer() {
 
 
                         <div className="col-md-2 col-sm-6">
-                            <h2>About</h2>
+                            <h2>Partnership</h2>
                             <ul>
-                                <li><a href="#">Partnership</a></li>
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">find store</a></li>
                                 <li><a href="#">Categories</a></li>

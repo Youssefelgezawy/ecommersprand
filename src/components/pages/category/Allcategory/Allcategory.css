@@ -1,0 +1,291 @@
+.allcategory .container .listview {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.allcategory .container .name-category {
+  width: 22%;
+}
+
+
+.allcategory .container .name-category .filter-section .name {
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--dark);
+  margin-top: -10px;
+}
+
+
+.allcategory .container .name-category ul {
+  text-align: start;
+  color: var(--color-side);
+}
+
+
+
+.allcategory .container .name-category ul li {
+  text-align: start;
+  padding-bottom: 6px;
+}
+
+
+.allcategory .container .name-category ul li input {
+  margin-right: 8px;
+}
+
+
+.allcategory .container .name-category ul .seeall {
+  color: var(--sky-blue);
+}
+
+
+.allcategory .container .name-category .price-range input[type="range"] {
+  width: 100%;
+}
+
+
+.allcategory .container .name-category .price-range .price-values {
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+
+.allcategory .container .name-category .price-range .price-values input {
+  width: 40%;
+  padding: 5px;
+  background-color: var(--whites);
+  border: 1px solid var(--white-border);
+  border-radius: 4px;
+  margin: 0 10px;
+}
+
+
+.allcategory .container .name-category .price-range button {
+  background-color: var(--whites);
+  color: var(--sky-blue);
+  border: 1px solid var(--white-border);
+  border-radius: 4px;
+  width: 95%;
+  margin: 0 7px;
+  padding: 5px 0;
+}
+
+
+
+
+
+
+/* products */
+
+
+.allcategory .container .products {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 73%;
+  margin-top: 20px;
+  height: 100%;
+}
+
+
+.allcategory .container .products .product {
+  background-color: var(--whites);
+  width: 295px;
+  height: 405px;
+  position: relative;
+}
+
+
+.allcategory .container .products .product img,
+.allcategory .container .products .product a {
+  width: 200px;
+  height: 220px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
+.allcategory .container .products .product .price {
+  position: relative;
+}
+
+.allcategory .container .products .product .price h6 {
+  position: absolute;
+  left: -20%;
+  color: var(--dark);
+}
+
+
+.allcategory .container .products .product .stare {
+  position: absolute;
+  font-size: 20px;
+  color: var(--stare);
+  bottom: 20%;
+  left: 8px;
+}
+
+.allcategory .container .products .product .cart {
+  position: absolute;
+  font-size: 25px;
+  color: var(--sky-blue);
+  right: 20px;
+  bottom: 100px;
+  background-color: var(--whites);
+  width: 45px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid var(--white-border);
+  cursor: pointer;
+}
+
+
+.allcategory .container .products .product p {
+  position: absolute;
+  color: var(--light-dark);
+  bottom: 20px;
+  font-size: 15px;
+  left: 5%;
+}
+
+
+
+
+
+
+
+/* summary */
+
+.filter-section summary {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.filter-section summary::-webkit-details-marker {
+  display: none;
+}
+
+.filter-section summary::after {
+  content: "▾";
+  transition: 0.3s;
+}
+
+.filter-section[open] summary::after {
+  transform: rotate(180deg);
+}
+
+
+
+
+
+
+/* pagination-bar */
+
+.allcategory .container .products .pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+
+.allcategory .container .products .pagination-bar .show {
+  background-color: var(--whites);
+  display: flex;
+  width: 125px;
+  height: 40px;
+  border-radius: 8px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.allcategory .container .products .pagination-bar .show select {
+  border: none;
+  outline: none;
+}
+
+
+.allcategory .container .products .pagination {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background-color: var(--whites);
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  border: 1px solid var(--white-border);
+
+
+}
+
+
+.allcategory .container .products .pagination .page-btn {
+  font: 1px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--dark);
+
+}
+
+
+
+
+
+/* media  */
+
+
+@media (max-width: 992px) {
+  .allcategory .container .products .product {
+    width: 200px;
+    height: 300px;
+  }
+
+  .allcategory .container .products .product img {
+    width: 100px;
+    height: 110px;
+  }
+
+  .allcategory .container .products .product .price h6 {
+    left: 0;
+  }
+
+  .allcategory .container .products .product .stare {
+    bottom: 28%;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .allcategory .container .products .product {
+    width: 150px;
+    height: 300px;
+  }
+
+  .allcategory .container .products .product img {
+    width: 100px;
+    height: 110px;
+  }
+  .allcategory .container .name-category .filter-section .name {
+  font-size: 16px;
+}
+.allcategory .container .name-category ul li {
+ font-size: 12px;
+}
+}

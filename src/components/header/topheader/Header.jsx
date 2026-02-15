@@ -7,6 +7,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { IoMdMenu } from "react-icons/io";
 import { CgShoppingCart } from "react-icons/cg";
 import { FaRegUser } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 
 
@@ -14,6 +15,11 @@ import { FaRegUser } from "react-icons/fa6";
 
 
 function Header() {
+
+
+
+
+
   return (
     <>
 
@@ -44,8 +50,10 @@ function Header() {
               <span>Orders</span>
             </div>
             <div className="action-item">
-              <FaShoppingCart />
-              <span>My cart</span>
+              <Link to="/cart">
+                <FaShoppingCart />
+                <span>My cart</span>
+              </Link>
             </div>
           </div>
         </div>
@@ -65,7 +73,9 @@ function Header() {
             <h6>Brand</h6>
           </div>
           <div className="actions">
-            <CgShoppingCart />
+            <Link to="/cart" className="mobile-cart">
+              <CgShoppingCart />
+            </Link>
 
             <FaRegUser />
           </div>

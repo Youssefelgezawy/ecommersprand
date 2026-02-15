@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Recommend.css"
 import { useEffect, useState } from "react";
 
@@ -35,15 +36,13 @@ function Recommend() {
 
                     <div className="products">
                         {product.map(item => (
-                            <div className="product" key={item.id}>
+                            <Link to={`/products/${item.id}`} key={item.id} className="product">
                                 <img src={item.thumbnail} alt={item.title} />
                                 <h5 className="price">${item.price}</h5>
                                 <h4>{item.title}</h4>
-                            </div>
+                            </Link>
                         ))}
-
                     </div>
-
 
 
 

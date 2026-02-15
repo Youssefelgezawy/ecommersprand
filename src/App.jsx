@@ -1,41 +1,32 @@
 import './App.css'
+import Header from './components/header/topheader/Header'
+import Botomheader from './components/header/botomheader/Botomheader'
 import Footer from './components/footer/Footer'
-import Item from './components/main/blookitemgroup/Item'
-import Header from './components/main/header/Header'
-import Section from './components/main/section-main/Section'
-import Sale from './components/main/section-sale/Sale'
-import image98 from "./assets/image98.png"
-import image92 from "./assets/image92.png"
-import Maskgroup from './components/main/maskgroup/Maskgroup'
-import Recommend from './components/main/recommend/Recommend'
-import Services from './components/main/service/Services'
-import Country from './components/main/country/Country'
-import Communication from './components/main/communication/Communication'
-
+import { Route, Routes } from 'react-router-dom'
+import Home from "./components/pages/home/Home.jsx";
+import Category from "./components/pages/Category/Category.jsx";
+import Productdetels from './components/pages/Productdetels/Productdetels.jsx'
+import Cart from './components/pages/cart/Cart.jsx'
 
 function App() {
 
   return (
     <>
-      {/* Main */}
       <Header />
-      <Section />
-      <Sale />
-      <Item title={image92} skip={0}/>
-      <Item title={image98} skip={8}/>
-      <Maskgroup />
-      <Recommend />
-      <Services />
-      <Country />
-      <Communication />
+      <Botomheader />
+
+
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/category" element={<Category />} />
+        <Route path="/products/:id" element={<Productdetels />} />
+        <Route path="/cart/" element={<Cart />} />
+      </Routes>
 
 
 
 
-
-
-
-      {/* footer */}
       <Footer />
     </>
   )

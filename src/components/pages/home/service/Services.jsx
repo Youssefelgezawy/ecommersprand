@@ -3,10 +3,10 @@ import { FaSearch } from "react-icons/fa";
 import { RiDeleteBin4Fill } from "react-icons/ri";
 import { MdOutlineSend } from "react-icons/md";
 import { MdSecurity } from "react-icons/md";
-import image108 from "../../../assets/image108.png"
-import image104 from "../../../assets/image104.png"
-import image106 from "../../../assets/image106.png"
-import image107 from "../../../assets/image107.png"
+import image108 from "../../../../assets/image108.png"
+import image104 from "../../../../assets/image104.png"
+import image106 from "../../../../assets/image106.png"
+import image107 from "../../../../assets/image107.png"
 
 
 

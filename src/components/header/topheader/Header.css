@@ -2,7 +2,7 @@
 
 .container{
     padding: 8px 0;
-    
+    margin-bottom: -55px;
 }
 
 .header {
@@ -89,25 +89,33 @@
     align-items: center;
 }
 
-.header .actions .action-item {
+.header .actions .action-item,.header .actions .action-item a {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 0 10px;
     gap: 3px;
+    cursor: pointer;
+
 }
 
-.header .actions .action-item svg {
+.header .actions .action-item svg ,.header .actions .action-item svg a {
     font-size: 20px;
     color: var(--light-gray);
 
 }
 
-.header .actions .action-item span {
+.header .actions .action-item span ,.header .actions .action-item span a {
     font-size: 10px;
     color: var(--light-gray);
 }
 
+
+
+.mobile-header .actions, .mobile-cart svg{
+    color: var(--light-gray);
+    font-size: 25px;
+}
 
 
 

@@ -1,0 +1,39 @@
+.botomheader {
+    height: 56px;
+    background-color: var(--whites);
+    margin-bottom: 30px;
+
+}
+
+
+.botomheader .container {
+    height: 100%;
+    margin-right: 30px;
+}
+
+.botomheader .container .navbar {
+    width: 100%;
+}
+
+.botomheader .navbar ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+    width: 100%;
+}
+
+
+.botomheader .navbar ul li a {
+    color: var(--dark);
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+
+
+.botomheader .navbar ul li a:hover {
+    background-color: var(--white-by);
+}
