@@ -5,7 +5,7 @@ import { CiHeart } from "react-icons/ci";
 import { IoMdStarHalf } from "react-icons/io";
 import { RiStarSFill } from "react-icons/ri";
 import Item from "../home/blookitemgroup/Item";
-import { Cartcontext } from "../../cartcontext/cartprovider";
+import { Cartcontext } from "../../cartcontext/Cartprovider";
 
 
 
